@@ -1,0 +1,343 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:DB15_Female_HighDensity J1
+U 1 1 5F6E6E4B
+P 2800 2800
+F 0 "J1" H 2800 3667 50  0000 C CNN
+F 1 "DB15_Female_HighDensity" H 2800 3576 50  0000 C CNN
+F 2 "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x2.54mm_EdgePinOffset9.40mm" H 1850 3200 50  0001 C CNN
+F 3 " ~" H 1850 3200 50  0001 C CNN
+	1    2800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:DB15_Male_HighDensity J2
+U 1 1 5F6E78F5
+P 5050 2800
+F 0 "J2" H 5050 3667 50  0000 C CNN
+F 1 "DB15_Male_HighDensity" H 5050 3576 50  0000 C CNN
+F 2 "Connector_Dsub:DSUB-15-HD_Male_Horizontal_P2.29x2.54mm_EdgePinOffset9.40mm" H 4100 3200 50  0001 C CNN
+F 3 " ~" H 4100 3200 50  0001 C CNN
+	1    5050 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 4750 3100 0    50   Input ~ 0
+RED
+Text GLabel 4750 2900 0    50   Input ~ 0
+GREEN_OUT
+Text GLabel 4750 2700 0    50   Input ~ 0
+BLUE_OUT
+Text GLabel 2500 2400 0    50   Input ~ 0
+RED
+Text GLabel 2500 2800 0    50   Input ~ 0
+BLUE_IN
+Text GLabel 2500 2600 0    50   Input ~ 0
+GREEN_IN
+$Comp
+L power:+5V #PWR0102
+U 1 1 5F6F7106
+P 2500 2900
+F 0 "#PWR0102" H 2500 2750 50  0001 C CNN
+F 1 "+5V" V 2515 3028 50  0000 L CNN
+F 2 "" H 2500 2900 50  0001 C CNN
+F 3 "" H 2500 2900 50  0001 C CNN
+	1    2500 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5F6F8521
+P 2500 3200
+F 0 "#PWR0103" H 2500 2950 50  0001 C CNN
+F 1 "GND" V 2505 3072 50  0000 R CNN
+F 2 "" H 2500 3200 50  0001 C CNN
+F 3 "" H 2500 3200 50  0001 C CNN
+	1    2500 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F6F9919
+P 4750 2300
+F 0 "#PWR0104" H 4750 2050 50  0001 C CNN
+F 1 "GND" V 4755 2172 50  0000 R CNN
+F 2 "" H 4750 2300 50  0001 C CNN
+F 3 "" H 4750 2300 50  0001 C CNN
+	1    4750 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F6FA50C
+P 4750 3200
+F 0 "#PWR0105" H 4750 2950 50  0001 C CNN
+F 1 "GND" V 4755 3072 50  0000 R CNN
+F 2 "" H 4750 3200 50  0001 C CNN
+F 3 "" H 4750 3200 50  0001 C CNN
+	1    4750 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5F6FB6BF
+P 4750 3000
+F 0 "#PWR0106" H 4750 2750 50  0001 C CNN
+F 1 "GND" V 4755 2872 50  0000 R CNN
+F 2 "" H 4750 3000 50  0001 C CNN
+F 3 "" H 4750 3000 50  0001 C CNN
+	1    4750 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5F6FBA57
+P 4750 2800
+F 0 "#PWR0107" H 4750 2550 50  0001 C CNN
+F 1 "GND" V 4755 2672 50  0000 R CNN
+F 2 "" H 4750 2800 50  0001 C CNN
+F 3 "" H 4750 2800 50  0001 C CNN
+	1    4750 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5F6FC3BF
+P 2500 2300
+F 0 "#PWR0108" H 2500 2050 50  0001 C CNN
+F 1 "GND" V 2505 2172 50  0000 R CNN
+F 2 "" H 2500 2300 50  0001 C CNN
+F 3 "" H 2500 2300 50  0001 C CNN
+	1    2500 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5F6FC774
+P 2500 2500
+F 0 "#PWR0109" H 2500 2250 50  0001 C CNN
+F 1 "GND" V 2505 2372 50  0000 R CNN
+F 2 "" H 2500 2500 50  0001 C CNN
+F 3 "" H 2500 2500 50  0001 C CNN
+	1    2500 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5F6FCA6D
+P 2500 2700
+F 0 "#PWR0110" H 2500 2450 50  0001 C CNN
+F 1 "GND" V 2505 2572 50  0000 R CNN
+F 2 "" H 2500 2700 50  0001 C CNN
+F 3 "" H 2500 2700 50  0001 C CNN
+	1    2500 2700
+	0    1    1    0   
+$EndComp
+Text GLabel 2500 3000 0    50   Input ~ 0
+ID_BIT2
+Text GLabel 4750 2500 0    50   Input ~ 0
+ID_BIT2
+$Comp
+L power:GND #PWR0111
+U 1 1 5F6FE328
+P 4750 2400
+F 0 "#PWR0111" H 4750 2150 50  0001 C CNN
+F 1 "GND" V 4755 2272 50  0000 R CNN
+F 2 "" H 4750 2400 50  0001 C CNN
+F 3 "" H 4750 2400 50  0001 C CNN
+	1    4750 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5F6FEC6E
+P 2500 3100
+F 0 "#PWR0112" H 2500 2850 50  0001 C CNN
+F 1 "GND" V 2505 2972 50  0000 R CNN
+F 2 "" H 2500 3100 50  0001 C CNN
+F 3 "" H 2500 3100 50  0001 C CNN
+	1    2500 3100
+	0    1    1    0   
+$EndComp
+Text GLabel 3100 2400 2    50   Input ~ 0
+ID_BIT0
+Text GLabel 5350 3100 2    50   Input ~ 0
+ID_BIT0
+Text GLabel 5350 2900 2    50   Input ~ 0
+ID_BIT1
+Text GLabel 3100 2600 2    50   Input ~ 0
+ID_BIT1
+Text GLabel 5350 2300 2    50   Input ~ 0
+ID_BIT3
+Text GLabel 3100 3200 2    50   Input ~ 0
+ID_BIT3
+Text GLabel 3100 2800 2    50   Input ~ 0
+HSYNC
+Text GLabel 5350 2700 2    50   Input ~ 0
+HSYNC
+Text GLabel 3100 3000 2    50   Input ~ 0
+VSYNC
+Text GLabel 5350 2500 2    50   Input ~ 0
+VSYNC
+Text GLabel 2500 4100 0    50   Input ~ 0
+GREEN_IN
+Text GLabel 2900 4200 2    50   Input ~ 0
+GREEN_OUT
+Text GLabel 2500 4500 0    50   Input ~ 0
+BLUE_IN
+Text GLabel 2900 4600 2    50   Input ~ 0
+BLUE_OUT
+$Comp
+L Device:R_POT RV1
+U 1 1 5F70B75C
+P 3800 3800
+F 0 "RV1" V 3593 3800 50  0000 C CNN
+F 1 "R_POT" V 3684 3800 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 3800 3800 50  0001 C CNN
+F 3 "~" H 3800 3800 50  0001 C CNN
+	1    3800 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV2
+U 1 1 5F70C076
+P 4850 3800
+F 0 "RV2" V 4643 3800 50  0000 C CNN
+F 1 "R_POT" V 4734 3800 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 4850 3800 50  0001 C CNN
+F 3 "~" H 4850 3800 50  0001 C CNN
+	1    4850 3800
+	0    1    1    0   
+$EndComp
+Text GLabel 5000 3800 2    50   Input ~ 0
+GREEN_OUT
+Text GLabel 4850 3950 3    50   Input ~ 0
+GREEN_IN
+Text GLabel 3950 3800 2    50   Input ~ 0
+BLUE_OUT
+Text GLabel 3800 3950 3    50   Input ~ 0
+BLUE_IN
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5F72F709
+P 3300 1500
+F 0 "H1" H 3400 1549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2650 1700 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 3300 1500 50  0001 C CNN
+F 3 "~" H 3300 1500 50  0001 C CNN
+	1    3300 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5F730D74
+P 3750 1500
+F 0 "H2" H 3850 1549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3400 1300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 3750 1500 50  0001 C CNN
+F 3 "~" H 3750 1500 50  0001 C CNN
+	1    3750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5F736849
+P 4150 1500
+F 0 "H3" H 4250 1549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3850 1700 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 4150 1500 50  0001 C CNN
+F 3 "~" H 4150 1500 50  0001 C CNN
+	1    4150 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5F736EB6
+P 4550 1500
+F 0 "H4" H 4650 1549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4400 1300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 4550 1500 50  0001 C CNN
+F 3 "~" H 4550 1500 50  0001 C CNN
+	1    4550 1500
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 1600 0    50   Input ~ 0
+SHIELD
+Wire Wire Line
+	4550 1600 4150 1600
+Connection ~ 3300 1600
+Wire Wire Line
+	3300 1600 3050 1600
+Connection ~ 3750 1600
+Wire Wire Line
+	3750 1600 3300 1600
+Connection ~ 4150 1600
+Wire Wire Line
+	4150 1600 3750 1600
+NoConn ~ 4750 2600
+$Comp
+L Switch:SW_Push_DPDT SW1
+U 1 1 60A1DBA3
+P 2700 4300
+F 0 "SW1" H 2700 4785 50  0000 C CNN
+F 1 "SW_Push_DPDT" H 2700 4694 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_E-Switch_EG1271_DPDT" H 2700 4500 50  0001 C CNN
+F 3 "~" H 2700 4500 50  0001 C CNN
+	1    2700 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4500 2500 4350
+Wire Wire Line
+	2500 4350 2900 4350
+Wire Wire Line
+	2900 4350 2900 4400
+NoConn ~ 2900 4000
+$Comp
+L Device:R R1
+U 1 1 60A3D998
+P 3800 4700
+F 0 "R1" V 3593 4700 50  0000 C CNN
+F 1 "100R" V 3684 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3730 4700 50  0001 C CNN
+F 3 "~" H 3800 4700 50  0001 C CNN
+	1    3800 4700
+	0    1    1    0   
+$EndComp
+Text GLabel 3650 4800 3    50   Input ~ 0
+BLUE_IN
+Text GLabel 3950 4700 2    50   Input ~ 0
+BLUE_OUT
+Text GLabel 5000 4700 2    50   Input ~ 0
+GREEN_OUT
+Text GLabel 4700 4800 3    50   Input ~ 0
+GREEN_IN
+$Comp
+L Device:R R2
+U 1 1 60A3C7EE
+P 4850 4700
+F 0 "R2" V 4643 4700 50  0000 C CNN
+F 1 "39R" V 4734 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4780 4700 50  0001 C CNN
+F 3 "~" H 4850 4700 50  0001 C CNN
+	1    4850 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 4700 4700 4800
+Wire Wire Line
+	3650 4700 3650 4800
+$EndSCHEMATC
